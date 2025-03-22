@@ -1,0 +1,12 @@
+com\xssdefense\system\controller\XssTestController.class
+com\xssdefense\system\model\AttackLog.class
+com\xssdefense\system\model\XssTestRequest.class
+com\xssdefense\system\service\XssDetectionService.class
+com\xssdefense\system\XssDefenseSystemApplication.class
+com\xssdefense\system\controller\DefenseConfigController.class
+com\xssdefense\system\model\XssTestRequest$DefenseOptions.class
+com\xssdefense\system\model\DefenseConfig.class
+com\xssdefense\system\model\XssTestResult.class
+com\xssdefense\system\service\AttackLogService.class
+com\xssdefense\system\controller\AttackLogController.class
+com\xssdefense\system\service\DefenseConfigService.class
