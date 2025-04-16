@@ -2,6 +2,7 @@
 
 ## 项目结构
 
+```bash
 xss-defense-system/
 │
 ├── backend/ # 后端代码目录
@@ -36,6 +37,7 @@ xss-defense-system/
 │ └── ...
 │
 └── README.md # 项目说明文档
+ ```
 
 ## 项目说明
 
@@ -46,21 +48,24 @@ xss-defense-system/
 ### 后端
 
 1. 修改数据库配置：
-   ```进入backend/src/main/resources/application.properties文件，修改数据库配置```
-      在resources目录下db文件夹下有数据库建表语句，导入到数据库即可。
+   进入
+   ```bash
+   cd backend/src/main/resources/application.properties
    ```
+   文件，修改数据库配置 在resources目录下db文件夹下有数据库建表语句，导入到数据库即可。
 
-2. 进入后端目录：
+
+3. 进入后端目录：
    ```bash
    cd xss-defense-system/backend
    ```
 
-3. 使用Maven构建项目：
+4. 使用Maven构建项目：
    ```bash
    mvn clean install
    ```
 
-4. 启动后端服务：
+5. 启动后端服务：
    ```bash
    mvn spring-boot:run
    ```
